@@ -1,0 +1,64 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual environment
+venv/
+.env/
+__pycache__/
+*.py[cod]
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and database files
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Python package files
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific files (PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+
+# Test and debugging
+.tox/
+.nox/
+
+# pipenv, poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pytest cache
+.pytest_cache/
+
+# Pylint
+.pylint.d/
+
+# Local dev files
+.envrc
+.env.local
+secrets.json
+config.yaml
